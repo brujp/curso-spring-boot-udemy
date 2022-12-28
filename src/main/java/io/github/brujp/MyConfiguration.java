@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Profile;
 //Configurations e Beans
 
 @Configuration
-@Profile("development")
+@Profile("development") //Essa configuração será exclusiva para o ambiente de dev.
 public class MyConfiguration {
 
     //Aqui eu configuro a criação do objeto no contexto da aplicação
