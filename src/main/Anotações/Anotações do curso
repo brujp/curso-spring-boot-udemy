@@ -1,0 +1,14 @@
+- Nas configurations, conseguimos criar os @Beans
+
+Beans - Objetos que retornam algo e podem ser injetados em outras
+classes para utilização (@Autowired) - Utilizado para anotar métodos
+
+- Container IOC (Inversion of Control) do Spring:
+
+@Bean       -> @Configuration
+@Repository -> @Component
+@Controller -> @Component
+@Service    -> @Component
+
+Se eu tenho alguma classe que não se encaixa em nenhum desses, basta anotar com @Component
+que ela passará a ser controlada pelo Container IOC
